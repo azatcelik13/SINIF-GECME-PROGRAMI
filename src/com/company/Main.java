@@ -1,4 +1,4 @@
-package Main;
+package com.company;
 
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ public class Main {
         while(mat<0||mat>100){
             System.out.println("yanlış bi değer girdiniz :");
             mat =inp.nextInt();
-            }
+        }
 
         System.out.println("fizik Notunuzu giriniz");
         fizik = inp.nextInt();
